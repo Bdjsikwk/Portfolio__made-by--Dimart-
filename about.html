@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me //Dimart</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <div class="all">
+        <nav class="nav">
+            <ul class="nav-list">
+                <div class="home-wrap btn-wrap">
+                    <li class="item-info home-info">Home</li>
+                    <li class="nav-list-item home"><button class="button-nav"><a href="index.html" class="nav-link"><img src="./images/home.svg" alt="" class="nav-bn-img"></a></button></li>
+                </div>
+                <div class="about-wrap btn-wrap">
+                    <li class="item-info about-info">About</li>
+                    <li class="nav-list-item about"><button class="button-nav--active"><a href="about.html" class="nav-link"><img src="./images/about.svg" alt="" class="nav-bn-img"></a></button></li>
+                </div>
+                <div class="services-wrap btn-wrap">
+                    <li class="item-info services-info">Services</li>
+                    <li class="nav-list-item services"><button class="button-nav"><a href="services.html" class="nav-link"><img src="./images/services.svg" alt="" class="nav-bn-img"></a></button></li>
+                </div>
+                <div class="works-wrap btn-wrap">
+                    <li class="item-info work-info">Works</li>
+                    <li class="nav-list-item works"><button class="button-nav"><a href="work.html" class="nav-link"><img src="./images/work.svg" alt="" class="nav-bn-img"></a></button></li>
+                </div>
+                <div class="links-wrap btn-wrap">
+                    <li class="item-info links-info">Links</li>
+                    <li class="nav-list-item links"><button class="button-nav"><a href="links.html" class="nav-link"><img src="./images/link.svg" alt="" class="nav-bn-img"></a></button></li>
+                </div>
+            </ul>
+        </nav>
+        <section class="abt-section">
+            <div class="container">
+                <h2 class="abt-title">//About</h3>
+                <img src="./images/avatar.svg" alt="" class="avatar">
+                <h2 class="abt-subtitle">I design websites</h2>
+                <p class="abt-text">I used to be fascinated by the work of a designer, to make something beautiful from scratch. I started by learning Photoshop, now I'm learning frontend dev. For all this time I have worked with many clients and made already 2000+ works.</p>
+            </div>
+        </section>
+        <section class="des-section">
+            <div class="container">
+                <h2 class="des-subtitle">and do graphic design</h2>
+                <p class="des-text">I design previews for YouTube, make advertising banners, avatars and logos, as well as process<br>photos and do retouching</p>
+            </div>
+        </section>
+        <section class="skills-section">
+            <div class="container">
+                <h2 class="skills-title">I’ve acquired a diverse<br>set of skills</h2>
+                <div class="img-container">
+                    <img src="./images/banner.svg" alt="" class="background-image">
+                    <div class="scroll-container">
+                        <div class="scroll-content">
+                            <div class="text">Photoshop</div>
+                            <div class="circle"><img src="./images/circle.svg" alt=""></div>
+                            <div class="text">Illustrator</div>
+                            <div class="circle"><img src="./images/circle.svg" alt=""></div>
+                            <div class="text">Scatch</div>
+                            <div class="circle"><img src="./images/circle.svg" alt=""></div>
+                            <div class="text">Figma</div>
+                            <div class="circle"><img src="./images/circle.svg" alt=""></div>
+                            <div class="text">Pixco</div>
+                            <div class="circle"><img src="./images/circle.svg" alt=""></div>
+                            <div class="text">HTML</div>
+                            <div class="circle"><img src="./images/circle.svg" alt=""></div>
+                            <div class="text">Scss</div>
+                            <div class="circle"><img src="./images/circle.svg" alt=""></div>
+                            <div class="text">Js</div>
+                            <div class="circle"><img src="./images/circle.svg" alt=""></div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <section class="me-section">
+            <div class="container">
+                <h2 class="me-subtitle">Random facts about me</h2>
+                <div class="facts">
+                    <div class="content">
+                        <p id="factNumber">№</p>
+                        <button id="generateFactBtn"><img src="./images/shuffle.svg" alt="" class="btn-img"></button>
+                    </div>
+                    <p id="randomFact">Click the button to see a random fact about me</p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <h2 class="footer-title">//Get in touch</h3>
+            <div class="contacts">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRdtlkNBwhKScRcrKcmHGBLzVhPrNDgnPBlhcBncStrwvBxBTDzpZSSjvMpVXGhqmBcLKh" class="contact-link" target="_blank"><img src="./images/email.png" alt="" class="contact-img--email"></a>
+                <a href="https://t.me/Dimart_ua" class="contact-link" target="_blank"><img src="./images/tg.svg" alt="" class="contact-img"></a>
+                <a href="https://www.instagram.com/dimart.ua/" class="contact-link" target="_blank"><img src="./images/inst.svg" alt="" class="contact-img"></a>
+            </div>
+        <p class="content-abt">/* Disigned and developed by Dimart.<br>My Portfolio Website */</p>
+        <p class="info">@ Dima Milovanov. Last updated May `24</p>
+        </footer>
+    </div>
+    <style>
+        .all {
+            background-image: url(./images/abt.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Nanum Gothic Coding;
+            background-attachment: fixed;
+            animation: fadeInBackground 1s forwards;
+        }
+
+        .footer {
+            background-image: radial-gradient(50% 100% at 50% 100%, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
+            box-shadow: inset 0px 1px 2px 0px rgba(189, 189, 189, 0.83);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: sticky;
+            text-align: center;
+            font-family: "Nanum Gothic Coding", monospace;
+            position: relative;
+        }
+
+        .footer::before {
+            position: absolute;
+            content: '';
+            background-image: url(./images/before.svg);
+            width: 417px;
+            width: clamp(3.125rem, -5.216rem + 41.7vw, 26.063rem);
+            height: 41px;
+            left: 0;
+            bottom: 20px;
+        }
+
+        .footer::after {
+            position: absolute;
+            content: '';
+            background-image: url(./images/after.svg);
+            width: 417px;
+            width: clamp(3.125rem, -5.216rem + 41.7vw, 26.063rem);
+            height: 41px;
+            right: 0;
+            bottom: 20px;
+        }
+    </style>
+    <script src="main.js"></script>
+</body>
+</html>
